@@ -1,0 +1,2 @@
+MainPackage=C:\!Raspberry\Appi2c\Sumi2c\bin\x64\Debug\Sumi2c_1.0.0.0_x64_Debug.appx
+SymbolPackage=C:\!Raspberry\Appi2c\Sumi2c\AppPackages\Sumi2c_1.0.0.0_Debug_Test\Sumi2c_1.0.0.0_x64_Debug.appxsym

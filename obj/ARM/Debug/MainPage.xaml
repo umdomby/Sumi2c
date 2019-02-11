@@ -1,0 +1,161 @@
+﻿<Page
+    x:Class="Sumi2c.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Sumi2c"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d" Height="480" Width="800">
+    <Page.Background>
+        <ImageBrush/>
+    </Page.Background>
+
+
+    <UserControl.Resources>
+        <Image x:Key="resourceImage" Source="/Assets/timerg.png"/>
+
+    </UserControl.Resources>
+
+
+    <Grid Margin="0,0,0,0" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+        <Grid.FocusVisualPrimaryBrush>
+            <ImageBrush/>
+        </Grid.FocusVisualPrimaryBrush>
+        <Button x:ConnectionId='2' x:Name="button0"  HorizontalAlignment="Left" Margin="700,100,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.1,-0.469" Height="80" Width="80"                      >
+            <Button.Background>
+                <ImageBrush ImageSource="/Images/onoff.png"/>
+            </Button.Background>
+        </Button>
+
+        <Button x:ConnectionId='3' x:Name="button1"  HorizontalAlignment="Left" Margin="500,20,0,0" VerticalAlignment="Top" Height="80" Width="80"                      >
+            <Button.Background>
+                <ImageBrush ImageSource="/Images/vent.png"/>
+            </Button.Background>
+        </Button>
+        <Button x:ConnectionId='4' x:Name="button2"  HorizontalAlignment="Left" Margin="600,20,0,0" VerticalAlignment="Top" Height="80" Width="80"                        >
+            <Button.Background>
+                <ImageBrush ImageSource="/Images/svet.png"/>
+            </Button.Background>
+        </Button>
+        <Button x:ConnectionId='5' x:Name="button3"  HorizontalAlignment="Left" Margin="500,105,0,0" VerticalAlignment="Top" Height="80" Width="80"                      >
+            <Button.Background>
+                <ImageBrush ImageSource="/Images/ir.png"/>
+            </Button.Background>
+        </Button>
+        <Button x:ConnectionId='6' x:Name="button4"  HorizontalAlignment="Left" Margin="600,105,0,0" VerticalAlignment="Top" Height="80" Width="80"                      >
+            <Button.Background>
+                <ImageBrush ImageSource="/Images/par.png"/>
+            </Button.Background>
+        </Button>
+        <Button x:ConnectionId='7' x:Name="button5"  HorizontalAlignment="Left" Margin="400,105,0,0" VerticalAlignment="Top" Height="80" Width="80"                      >
+            <Button.Background>
+                <ImageBrush ImageSource="/Images/plus.png"/>
+            </Button.Background>
+        </Button>
+        <Button x:ConnectionId='8' x:Name="button6"  HorizontalAlignment="Left" Margin="400,190,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.161,0.156" Height="80" Width="80"                      >
+            <Button.Background>
+                <ImageBrush ImageSource="/Images/minus.png"/>
+            </Button.Background>
+        </Button>
+        <Button x:ConnectionId='9' x:Name="button7"  HorizontalAlignment="Left" Margin="500,190,0,0" VerticalAlignment="Top" Height="80" Width="80"                      >
+            <Button.Background>
+                <ImageBrush ImageSource="/Images/voda.png"/>
+            </Button.Background>
+        </Button>
+        <Button x:ConnectionId='10' x:Name="button8"  HorizontalAlignment="Left" Margin="600,190,0,0" VerticalAlignment="Top" Height="80" Width="80"                      >
+            <Button.Background>
+                <ImageBrush ImageSource="/Images/vibro.png"/>
+            </Button.Background>
+        </Button>
+        <Button x:ConnectionId='11' x:Name="button9"   HorizontalAlignment="Left" Margin="400,20,0,0" VerticalAlignment="Top" RenderTransformOrigin="-1.258,-5"                       Height="80" Width="80">
+            <Button.Background>
+                <ImageBrush ImageSource="/Images/time.png"/>
+            </Button.Background>
+        </Button>
+        <Button x:ConnectionId='12' x:Name="button10" HorizontalAlignment="Left" Margin="20,20,0,0" VerticalAlignment="Top" Height="80" Width="80"                       >
+            <Button.Background>
+                <ImageBrush ImageSource="/Images/timer.png"/>
+            </Button.Background>
+        </Button>
+        <Button x:ConnectionId='13' x:Name="button11"  HorizontalAlignment="Left" Margin="19,102,0,0" VerticalAlignment="Top" Height="80" Width="80"                        >
+            <Button.Background>
+                <ImageBrush ImageSource="/Images/steam.png"/>
+            </Button.Background>
+        </Button>
+        <Button x:ConnectionId='14' x:Name="button12"  HorizontalAlignment="Left" Margin="20,185,0,0" VerticalAlignment="Top" Height="80" Width="80"                       >
+            <Button.Background>
+                <ImageBrush ImageSource="/Images/infared.png"/>
+            </Button.Background>
+        </Button>
+        <Button x:ConnectionId='15' x:Name="button13"  HorizontalAlignment="Left" Margin="20,268,0,0" VerticalAlignment="Top" Height="80" Width="80"                       >
+            <Button.Background>
+                <ImageBrush ImageSource="/Images/vichy.png"/>
+            </Button.Background>
+        </Button>
+        <Button x:ConnectionId='16' x:Name="button14"  HorizontalAlignment="Left" Margin="199,102,0,0" VerticalAlignment="Top" Height="80" Width="80"                       >
+            <Button.Background>
+                <ImageBrush ImageSource="/Images/facefan.png"/>
+            </Button.Background>
+
+        </Button>
+        <Button x:ConnectionId='17' x:Name="button15"  HorizontalAlignment="Left" Margin="200,185,0,0" VerticalAlignment="Top" Height="80" Width="80"                       >
+            <Button.Background>
+                <ImageBrush ImageSource="/Images/chromo.png"/>
+            </Button.Background>
+        </Button>
+        <Button x:ConnectionId='18' x:Name="button16"  HorizontalAlignment="Left" Margin="198,268,0,0" VerticalAlignment="Top" Height="80" Width="82"                       >
+            <Button.Background>
+                <ImageBrush ImageSource="/Images/vibromassaje.png"/>
+            </Button.Background>
+        </Button>
+
+
+        <TextBlock x:ConnectionId='19' x:Name="textBlock" HorizontalAlignment="Left" Margin="106,25,0,0" Text="0.00" TextWrapping="Wrap" VerticalAlignment="Top" Height="30" Width="58" FontSize="24"/>
+        <TextBlock x:ConnectionId='20' x:Name="textBlock1" HorizontalAlignment="Left" Margin="105,125,0,0" Text="0.00" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="24"/>
+        <TextBlock x:ConnectionId='21' x:Name="textBlock2" HorizontalAlignment="Left" Margin="106,210,0,0" Text="0.00" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="24"/>
+        <TextBox x:ConnectionId='22' x:Name="txtTemperature" FontSize="24" TextAlignment="Right" Margin="289,17,0,0" TextWrapping="Wrap" Text="0.00" VerticalAlignment="Top" Height="39" HorizontalAlignment="Left" Width="65" Background="{x:Null}"/>
+        <TextBox x:ConnectionId='23' x:Name="txtTemperature2" FontSize="24" TextAlignment="Right" Margin="289,57,0,0" TextWrapping="Wrap" Text="0.00" VerticalAlignment="Top" Height="39" HorizontalAlignment="Left" Width="65" Background="{x:Null}"/>
+
+        <TextBlock x:ConnectionId='24' x:Name="textBlock_Copy4" HorizontalAlignment="Left" Margin="196,333,0,0" FontSize="60" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="85" Width="78"/>
+        <Image x:ConnectionId='25' x:Name="image" HorizontalAlignment="Left" Height="80" Margin="200,20,0,0" VerticalAlignment="Top" Width="80" RenderTransformOrigin="0,0.05" Source="/Images/temp.png">
+            <Image.FocusVisualPrimaryBrush>
+                <ImageBrush ImageSource="ms-appx:///Images/temp.png"/>
+            </Image.FocusVisualPrimaryBrush>
+
+        </Image>
+        <TextBlock x:ConnectionId='26' x:Name="textBlock3" HorizontalAlignment="Left" Margin="106,293,0,0" Text="0.00" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="24"/>
+        <TextBlock x:ConnectionId='27' x:Name="textBlock4" HorizontalAlignment="Left" Margin="280,290,0,0" Text="0.00" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="24" RenderTransformOrigin="0.682,0.219"/>
+        <TextBlock x:ConnectionId='28' x:Name="textBlock5" HorizontalAlignment="Left" Margin="717,41,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="22" Width="49" Height="40"><Run Text="OFF"/><LineBreak/><Run/></TextBlock>
+        <TextBlock x:ConnectionId='29' x:Name="textBlock6" HorizontalAlignment="Left" Margin="105,65,0,0" Text="0.00" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="24"/>
+
+        <Button x:ConnectionId='30' x:Name="button17" Content="" HorizontalAlignment="Left" Margin="400,275,0,0" VerticalAlignment="Top" Height="80" Width="80"                         >
+            <Button.Background>
+                <ImageBrush ImageSource="/Images/svetvanna.png"/>
+            </Button.Background>
+        </Button>
+
+        <Button x:ConnectionId='31' x:Name="button18" Content="" HorizontalAlignment="Left" Margin="500,275,0,0" VerticalAlignment="Top" Height="80" Width="80"                         >
+            <Button.Background>
+                <ImageBrush ImageSource="/Images/massage.png"/>
+            </Button.Background>
+        </Button>
+
+        <Button x:ConnectionId='32' x:Name="button19" Content="" HorizontalAlignment="Left" Margin="600,275,0,0" VerticalAlignment="Top" Height="80" Width="80"                         >
+            <Button.Background>
+                <ImageBrush ImageSource="/Images/gidro.png"/>
+            </Button.Background>
+        </Button>
+
+        <Button x:ConnectionId='33' x:Name="button20" Content="" HorizontalAlignment="Left" Margin="700,275,0,0" VerticalAlignment="Top" Height="80" Width="80"                         >
+            <Button.Background>
+                <ImageBrush ImageSource="/Images/func.png"/>
+            </Button.Background>
+        </Button>
+
+
+
+    </Grid>
+</Page>
+
+    
+
